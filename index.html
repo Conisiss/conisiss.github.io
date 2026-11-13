@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conisiss</title>
+<meta name="description" content="Conisiss ผู้พัฒนาแอป ตรวจหวย ดูหวย">
+<meta property="og:title" content="Conisiss">
+<meta property="og:description" content="ผู้พัฒนาแอป ตรวจหวย ดูหวย">
+<meta property="og:image" content="https://conisiss.github.io/img/conisiss.png">
+<link rel="icon" href="img/conisiss.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink: #111; --muted: #5f6673; --line: #e6e7eb; --navy: #0B2B6A; --gold: #F5C518; --bg: #fff; --card: #f6f7f9; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #f2f3f5; --muted: #a3a9b5; --line: #2a2e36; --bg: #0f1115; --card: #181b21; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'IBM Plex Sans Thai', system-ui, sans-serif; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 40px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; background: #fff; border: 1px solid var(--line); }
+  h1 { margin: 0; font-size: 28px; letter-spacing: .5px; }
+  header p { margin: 0; color: var(--muted); }
+  h2 { font-size: 15px; font-weight: 600; color: var(--muted); margin: 0 0 12px; }
+  .app { display: flex; gap: 16px; align-items: center; padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); }
+  .app img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
+  .app h3 { margin: 0; font-size: 19px; }
+  .app p { margin: 2px 0 10px; color: var(--muted); font-size: 14px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn { display: inline-block; padding: 7px 14px; border-radius: 999px; background: var(--navy); color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; }
+  .btn.alt { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="img/conisiss.png" alt="Conisiss">
+    <div>
+      <h1>Conisiss</h1>
+      <p>ผู้พัฒนาแอปมือถือ</p>
+    </div>
+  </header>
+
+  <h2>แอปของเรา</h2>
+  <div class="app">
+    <img src="img/truathuay.png" alt="ตรวจหวย ดูหวย">
+    <div>
+      <h3>ตรวจหวย ดูหวย</h3>
+      <p>ตรวจผลสลากกินแบ่งรัฐบาล สแกน QR บนสลาก ดูผลสด และสถิติย้อนหลัง</p>
+      <div class="btns">
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.conisiss.lottocheck">Google Play</a>
+        <a class="btn" href="https://apps.apple.com/th/app/id6832919254">App Store</a>
+        <a class="btn alt" href="https://conisiss.github.io/truathuay-privacy/privacypolicy.html">นโยบายความเป็นส่วนตัว</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    แอปสำหรับตรวจผลรางวัล ไม่ใช่แอปของสำนักงานสลากกินแบ่งรัฐบาล<br>
+    ติดต่อผู้พัฒนา: ดูอีเมลในหน้า <a href="https://conisiss.github.io/truathuay-privacy/privacypolicy.html">นโยบายความเป็นส่วนตัว</a>
+  </footer>
+</main>
+</body>
+</html>
